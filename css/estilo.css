@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+/* Configuração Geral*/
+::-moz-selection { background: #FDAA27!important; color: white }
+::selection { background: #FDAA27!important; color: white}
+/* Fim Configuração Geral*/
+
+/* Inicio Menu */
+
+.navbar #menu {
+	background-color: #FDAA27!important;
+}
+
+.navbar #menu #navbar-header a  {
+	color: white!important;
+	font-weight: bold;
+}
+
+.navbar #menu #collapse a  {
+	color: white!important;
+	font-weight: bold;
+}
+
+.navbar #menu #collapse a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.navbar #menu #navbar-right input {
+	text-decoration: none;
+	outline:none;
+	border: none;
+	box-shadow: none;
+}
+
+.navbar #menu #navbar-right input:focus {
+	text-decoration: none;
+	outline:none;
+	border: none;
+	box-shadow: none;	
+}
+
+.navbar #menu #navbar-right button {
+	font-weight: bold;	
+	color: #FDAA27!important;
+}
+
+.navbar #menu #navbar-right button:hover {
+	font-weight: bold;	
+	color: white!important;
+	background-color: #FDAA27!important;
+	border-color: white;
+}
+
+/* Fim do Menu */
+
+/* Inicio bloco cima */
+
+.container-fluid #jumbotron {
+	padding: 15px!important;
+	background-color: white;
+}
+
+.container-fluid #jumbotron #sobre-o-projeto h1{
+	font-size: 200%;
+	color: #FDAA27!important;	
+    margin: 5px;
+}
+
+.container-fluid #jumbotron #sobre-o-projeto p{
+	font-size: 100%;
+}
+
+.container-fluid #jumbotron #sobre-o-projeto #btn {
+	background-color: #FDAA27;
+	border-color: white;
+	font-weight: bold;
+}
+
+.container-fluid #jumbotron #sobre-o-projeto #btn:hover {
+	background-color: #FE6525;
+	border-color: white;
+	font-weight: bold;
+}
+
+/* Fim bloco cima */
+
+/* Inicio Meio */
+.container-fluid #separacao {
+	border-top-color:  #FDAA27!important;	
+}
+
+.container-fluid #o-projeto {
+	color: #FDAA27!important;
+}
+
+.container-fluid #posts h1 {
+	color: #FDAA27!important;
+	font-size: 150%;
+	margin: 0px;
+}
+
+.container-fluid #posts a:hover {
+	text-decoration: underline;
+    text-decoration-color: #FDAA27!important;;
+}
+
+.container-fluid #posts p {
+	margin-top: 3px;
+	margin-left: 11px;
+	font-size: 110%;
+}
+
+/* Inicio Footer */
+.container-fluid .page-footer #copyright a{
+	color: #FDAA27!important;
+	font-weight: bold;
+}
+
+.container-fluid .page-footer #copyright a:hover{
+	color: #FE6525!important;
+	font-weight: bold;
+}
