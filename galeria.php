@@ -186,7 +186,7 @@
       </div>
     </div>
   </div>
-    
+    </div>
     
     <!-- Fim Meio -->
 
@@ -197,10 +197,6 @@
      ?> 
 
   </div> <!-- Fim container-fluid -->
-
-  
-
-  
 
 
 </body>

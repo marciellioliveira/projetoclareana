@@ -52,6 +52,43 @@
 }
 /* Fim do Menu */
 
+/* Icones Rede de Social*/
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white!important;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white!important;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white!important;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white!important;
+}
+
+
+/*Fim Icones de Rede Social*/
+
 /*
 ********************************************Abaixo index.php ********************************************
 */
@@ -124,6 +161,11 @@
 /*
 ********************************************Abaixo galeria.php ********************************************
 */
+
+.container-fluid #jumbotron img:hover {
+	cursor: pointer;
+}
+
 .container-fluid #jumbotron .modal {
 	background-color: white;
 }
@@ -133,17 +175,18 @@
   	height: 100%;
   	margin: 0;
   	padding: 0;
+
 }
 
 .container-fluid #jumbotron .modal .modal-content {
 	height: auto;
   	min-height: 100%;
- 	border-radius: 0; 	
+ 	border-radius: 0; 
 }
 
-.container-fluid #jumbotron .modal .modal-content .modal-body img{
-	width: 70%;
-	height: 70%;	
+.container-fluid #jumbotron .modal .modal-content .modal-body img {
+	width: 80%;
+	height: 80%;	
 	 display: block;
     margin-left: auto;
     margin-right: auto;
@@ -151,7 +194,15 @@
 }
 
 
-
+/*
+********************************************Abaixo voluntarios.php ********************************************
+*/
+.container-fluid #jumbotron #img-redonda {
+	border: 2px solid #FDAA27!important;
+    width: 200px;
+    height: 200px;
+    border-radius:100%;
+}
 
 
 
