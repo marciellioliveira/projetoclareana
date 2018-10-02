@@ -14,8 +14,9 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav" id="collapse">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Sobre</a></li>
+        <li><a href="index.php">Inicio</a></li>
+        <li><a href="sobre.php">Sobre</a></li>
+        <li><a href="#">Galeria</a></li>
         <li><a href="#">Voluntários</a></li>
         <li><a href="#">Contato</a></li>
       </ul>

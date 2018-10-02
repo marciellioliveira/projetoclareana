@@ -6,7 +6,6 @@
 /* Fim Configuração Geral*/
 
 /* Inicio Menu */
-
 .navbar #menu {
 	background-color: #FDAA27!important;
 }
@@ -51,8 +50,11 @@
 	background-color: #FDAA27!important;
 	border-color: white;
 }
-
 /* Fim do Menu */
+
+/*
+********************************************Abaixo index.php ********************************************
+*/
 
 /* Inicio bloco cima */
 
@@ -111,6 +113,37 @@
 	font-size: 110%;
 }
 
+/*
+********************************************Abaixo sobre.php ********************************************
+*/
+.container-fluid #jumbotron p {
+	font-size: 115%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+********************************************Abaixo footer.php ********************************************
+*/
 /* Inicio Footer */
 .container-fluid .page-footer #copyright a{
 	color: #FDAA27!important;
