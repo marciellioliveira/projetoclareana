@@ -82,7 +82,7 @@
 
           <p>Uma explicação sobre o projeto aqui
           Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in.
-          </p>
+          </p>  
         
     
     <!-- Fim Meio -->
