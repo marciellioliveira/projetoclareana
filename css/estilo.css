@@ -254,12 +254,12 @@
 ********************************************Abaixo footer.php ********************************************
 */
 /* Inicio Footer */
-.container-fluid .page-footer #copyright a{
+.page-footer #copyright a{
 	color: #FDAA27!important;
 	font-weight: bold;
 }
 
-.container-fluid .page-footer #copyright a:hover{
+.page-footer #copyright a:hover{
 	color: #FE6525!important;
 	font-weight: bold;
 }

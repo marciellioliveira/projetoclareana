@@ -185,6 +185,92 @@
 
       </div>
     </div>
+
+    <div class="col-md-4">
+      <div class="thumbnail">
+          <img src="imgs/teste.png" alt="Fjords" data-toggle="modal" data-target="#myModal6" style="width:100%">   
+
+          <!-- Modal -->
+          <div id="myModal6" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Modal Header 6</h4>
+                </div>
+                <div class="modal-body">
+                  <img src="imgs/teste.png" alt="Lights" >
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+              </div>   
+        </div>
+      </div>
+
+      </div>
+    </div>
+
+        <div class="col-md-4">
+      <div class="thumbnail">
+          <img src="imgs/teste.png" alt="Fjords" data-toggle="modal" data-target="#myModal6" style="width:100%">   
+
+          <!-- Modal -->
+          <div id="myModal6" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Modal Header 6</h4>
+                </div>
+                <div class="modal-body">
+                  <img src="imgs/teste.png" alt="Lights" >
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+              </div>   
+        </div>
+      </div>
+
+      </div>
+    </div>
+
+        <div class="col-md-4">
+      <div class="thumbnail">
+          <img src="imgs/teste.png" alt="Fjords" data-toggle="modal" data-target="#myModal6" style="width:100%">   
+
+          <!-- Modal -->
+          <div id="myModal6" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Modal Header 6</h4>
+                </div>
+                <div class="modal-body">
+                  <img src="imgs/teste.png" alt="Lights" >
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+              </div>   
+        </div>
+      </div>
+
+      </div>
+    </div>
+
+
+
+
+
   </div>
     </div>
     

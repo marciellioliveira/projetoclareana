@@ -31,8 +31,10 @@
 
     </div>
     <div class="col-sm-9">
-      <h1>Maria Auxiliadora</h1>
+      <br>
+      <h3>Marcielli Oliveira</h3>
       <p>Formada em Gestão Empresarial e Análise e Desenvolvimento de Sistemas na Fatec de Cruzeiro.</p>
+      <br>
       <a href="https://www.facebook.com/itsmaoliv" class="fa fa-facebook">Facebook</a>     
       <a href="https://www.linkedin.com/in/marciellioliveira/" class="fa fa-linkedin">Linkedin</a>
       <a href="https://www.youtube.com/channel/UCrD3MUzwVd3eX4cOuMLEvXQ" class="fa fa-youtube">Youtube</a>
@@ -47,8 +49,10 @@
 
     </div>
     <div class="col-sm-9">
-      <h1>Maria Auxiliadora</h1>
+      <br>
+      <h3>Marcielli Oliveira</h3>
       <p>Formada em Gestão Empresarial e Análise e Desenvolvimento de Sistemas na Fatec de Cruzeiro.</p>
+      <br>
       <a href="https://www.facebook.com/itsmaoliv" class="fa fa-facebook">Facebook</a>     
       <a href="https://www.linkedin.com/in/marciellioliveira/" class="fa fa-linkedin">Linkedin</a>
       <a href="https://www.youtube.com/channel/UCrD3MUzwVd3eX4cOuMLEvXQ" class="fa fa-youtube">Youtube</a>
@@ -63,8 +67,10 @@
 
     </div>
     <div class="col-sm-9">
-      <h1>Maria Auxiliadora</h1>
+      <br>
+      <h3>Marcielli Oliveira</h3>
       <p>Formada em Gestão Empresarial e Análise e Desenvolvimento de Sistemas na Fatec de Cruzeiro.</p>
+      <br>
       <a href="https://www.facebook.com/itsmaoliv" class="fa fa-facebook">Facebook</a>     
       <a href="https://www.linkedin.com/in/marciellioliveira/" class="fa fa-linkedin">Linkedin</a>
       <a href="https://www.youtube.com/channel/UCrD3MUzwVd3eX4cOuMLEvXQ" class="fa fa-youtube">Youtube</a>
