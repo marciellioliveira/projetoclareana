@@ -205,12 +205,45 @@
 }
 
 
+/*
+********************************************Abaixo contato.php ********************************************
+*/
+.container-fluid #jumbotron #contato {
+	font-size: 250%;
+	color: #FDAA27!important;
+}
 
+.container-fluid #jumbotron #formulario {
+	background-color: #FDAA27!important;
+	padding:20px;
+	border-radius: 5px;
+}
 
+.container-fluid #jumbotron #formulario input {
+	border-color:  #FDAA27!important;
+}
 
+.container-fluid #jumbotron #formulario textarea {
+	border-color:  #FDAA27!important;
+}
 
+.container-fluid #jumbotron #formulario label {
+	color: white!important;
+}
 
+.container-fluid #jumbotron #formulario #btn #submit {
+	float: right;
+	font-weight: bold;	
+	color: #FDAA27!important;
+	background-color: white!important;
+} 
 
+.container-fluid #jumbotron #formulario #btn #submit:hover {
+	font-weight: bold;	
+	color: white!important;
+	background-color: #FDAA27!important;
+	border-color: white!important;
+}
 
 
 /*
