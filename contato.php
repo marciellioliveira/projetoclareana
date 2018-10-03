@@ -33,12 +33,11 @@
       <div class="col-sm-6">.col-sm-4</div>
       <div class="col-sm-6">
 
-          <form class="form-horizontal" role="form" method="post" action="index.php" id="formulario">
+          <form class="form-horizontal" role="form" method="post" action="cont.php" id="formulario">
             <div class="form-group">
               <label for="name" class="col-sm-2 control-label">Nome</label>
               <div class="col-sm-10">
-                <input type="text" class="form-control" id="name" name="name" placeholder="Nome Completo" value="">
-              </div>
+                <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome Completo" value="">     </div>
             </div>
             <div class="form-group">
               <label for="email" class="col-sm-2 control-label">Email</label>
@@ -47,29 +46,30 @@
               </div>
             </div>
             <div class="form-group">
+              <label for="telefone" class="col-sm-2 control-label">Telefone</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="telefone" name="telefone" placeholder="(xx) x xxxx-xxxx" value="">     </div>
+            </div>
+            <div class="form-group">
               <label for="message" class="col-sm-2 control-label">Mensagem</label>
               <div class="col-sm-10">
-                <textarea class="form-control" rows="4" name="message"></textarea>
+                <textarea class="form-control" rows="4" name="mensagem" value=""></textarea>
+                
               </div>
             </div>
-           <!-- <div class="form-group">
-              <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
-              <div class="col-sm-10">
-                <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
-              </div>
-            </div> -->
             <div class="form-group" id="btn">
               <div class="col-sm-10 col-sm-offset-2">
-                <input id="submit" name="submit" type="submit" value="Enviar" class="btn btn-primary">
+                <input id="submit" type="submit" name="BTEnvia" value="Enviar" class="btn btn-primary">
               </div>
             </div>
             <div class="form-group">
               <div class="col-sm-10 col-sm-offset-2">
-                <! Will be used to display an alert to the user>
+               
               </div>
             </div>
           </form>
 
+         
 
       </div>
     </div>
