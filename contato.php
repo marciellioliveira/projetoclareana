@@ -30,10 +30,13 @@
       <h5 id="contato">Contato</h5>
       <hr id="separacao">
       <br>
-      <div class="col-sm-6">.col-sm-4</div>
+      <div class="col-sm-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.843834476319!2d-45.01627668523655!3d-22.659610434793912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cccac0b2f092dd%3A0x3c5dab004e1c683f!2sR.+Bom+Jesus%2C+Cachoeira+Paulista+-+SP%2C+12630-000!5e0!3m2!1spt-BR!2sbr!4v1538584303052" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
       <div class="col-sm-6">
 
           <form class="form-horizontal" role="form" method="post" action="cont.php" id="formulario">
+            <h3>Projeto Clareana</h3><hr>
             <div class="form-group">
               <label for="name" class="col-sm-2 control-label">Nome</label>
               <div class="col-sm-10">

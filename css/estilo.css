@@ -219,6 +219,10 @@
 	border-radius: 5px;
 }
 
+.container-fluid #jumbotron #formulario h3 {
+	color: white;
+}
+
 .container-fluid #jumbotron #formulario input {
 	border-color:  #FDAA27!important;
 }
