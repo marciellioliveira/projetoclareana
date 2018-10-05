@@ -254,15 +254,28 @@
 ********************************************Abaixo footer.php ********************************************
 */
 /* Inicio Footer */
-.page-footer #copyright a{
-	color: #FDAA27!important;
-	font-weight: bold;
+
+.page-footer {   
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FDAA27!important;
+    color: white;
+    text-align: center;
+    position: fixed;
+    padding: 1%;
 }
 
-.page-footer #copyright a:hover{
-	color: #FE6525!important;
-	font-weight: bold;
+.page-footer a {
+	color: white;
+
 }
+
+.page-footer a:hover{	
+	font-weight: bold;
+	color: white;
+}
+
 
 
 /*

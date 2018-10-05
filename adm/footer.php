@@ -1,11 +1,9 @@
  <!-- Footer -->
-    <footer class="page-footer font-small blue">
+    <footer class="page-footer font-small blue" >
 
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-3" id="copyright">© 2018 Copyright:
-        <a href="https://marciellioliveira.github.io/"> Voluntária: Marcielli Oliveira</a>
-
-      </div>
+    	<!-- Copyright -->
+        <a href="https://marciellioliveira.github.io/"> © 2018 Copyright | Voluntária: Marcielli Oliveira</a>      
+      
       <!-- Copyright -->
       <br>
     </footer>

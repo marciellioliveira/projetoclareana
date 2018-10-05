@@ -268,12 +268,16 @@
     color: white;
     text-align: center;
     position: fixed;
+    padding: 1%;
 }
 
-.page-footer #copyright a{
+.page-footer a {
+	color: white;
+
+}
+
+.page-footer a:hover{	
+	font-weight: bold;
 	color: white;
 }
 
-.page-footer #copyright a:hover{	
-	font-weight: bold;
-}
