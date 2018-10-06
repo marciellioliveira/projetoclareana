@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Projeto Clareana</title>
@@ -15,7 +15,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-
   <div class="container-fluid">    
       <div class="row" >
       <div class="col-md-6 col-md-offset-3" >
@@ -98,9 +97,7 @@
      ?>  
 
 
-  <script type="text/javascript" src="js/formCadLog.js"></script>
-</body>
-</html>
+
 
 <!-- https://www.youtube.com/watch?v=-Ntvs91NEJE 
 https://files.000webhost.com/

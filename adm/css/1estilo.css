@@ -249,11 +249,6 @@
 	border-color: white!important;
 }
 
-/*
-********************************************Abaixo posts.php ********************************************
-*/
-
-
 
 /*
 ********************************************Abaixo footer.php ********************************************
@@ -281,16 +276,20 @@
 	color: white;
 }
 
+
+
 /*
 ********************************************Abaixo adm/index.php | Cadastro/Login ********************************************
 */
 
 /* Inicio Cadastro | Login */
+.container-fluid {
+	margin-top: 10%;    
+}
 
 .container-fluid #caixa {
 	background-color: #FDAA27!important;	
     padding: 10px;
-    margin-top: 20%;
 }
 
 .panel-login {

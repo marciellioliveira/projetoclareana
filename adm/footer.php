@@ -8,3 +8,7 @@
       <br>
     </footer>
     <!-- Footer -->
+
+      <script type="text/javascript" src="js/formCadLog.js"></script>
+</body>
+</html>

@@ -29,7 +29,7 @@ $senha = "projeto";
 	$md5 = md5($id);
 
 	$assunto = "Confirme seu cadastro<br>";
-	$link = "confirmaAdm.php?h=".$md5;
+	$link = "confirma.php?h=".$md5;
 	$mensagem = "<br>Clique aqui para confirmar seu cadastro".$link;
 	$header = "From: Projeto Clareana";
 
