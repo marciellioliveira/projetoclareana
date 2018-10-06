@@ -26,6 +26,7 @@
     <div class="row">
       <div class="col-sm-6">
         <!-- Inicio Slide de Imagens -->
+        
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">

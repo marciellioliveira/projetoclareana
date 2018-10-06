@@ -1,0 +1,53 @@
+-----------------------------------------------------------
+Página Inicial
+
+Foto - Tamanho: 630 x 337 px
+Titulo: 
+Sobre: Tamanho: 717 caracteres
+Link Facebook:
+Link Youtube:
+Link Pinterest:
+
+-----------------------------------------------------------
+Sobre
+
+Foto - Tamanho: 1320x 356 px
+Titulo: O Projeto
+Sobre: Tamanho: Minimo 717 caracteres
+
+-----------------------------------------------------------
+Galeria
+
+Upload Fotos
+
+-----------------------------------------------------------
+Voluntários
+
+Foto: Tamanho: 212 x 201 px
+Nome Completo
+Sobre: 
+Link Facebook:
+Link Linkedin:
+Link Youtube:
+Link Instagrma
+
+-----------------------------------------------------------
+Fundadores
+
+Foto: Tamanho: 212 x 201 px
+Nome Completo
+Sobre: 
+Link Facebook:
+Link Linkedin:
+Link Youtube:
+Link Instagrma
+
+-----------------------------------------------------------
+Posts
+
+Data:
+Titulo:
+Foto:
+Texto:
+Autor:
+

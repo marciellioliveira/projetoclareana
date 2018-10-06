@@ -253,7 +253,21 @@
 ********************************************Abaixo posts.php ********************************************
 */
 
+.container-fluid .jumbotron #autor {
+	color: #FDAA27!important;
+	font-size: 100%;
+	
+}
 
+.container-fluid .jumbotron #autor a {
+	color: #FDAA27!important;
+	font-size: 100%;
+}
+
+.container-fluid .jumbotron #autor a:hover {
+	color: #FE6525!important;
+	font-size: 100%;
+}
 
 /*
 ********************************************Abaixo footer.php ********************************************

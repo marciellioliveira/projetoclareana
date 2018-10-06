@@ -27,56 +27,36 @@
 
     <!-- Inicio Meio -->
 
-    <h2 id="o-projeto">Titulo do Post</h2>
+    <h2 id="o-projeto">O Projeto</h2>
 
-      <p id="autor">Data: 10 de outubro de 2018 | Autor: <a href="">Marcielli Oliveira</a></p>
-    
-      <!--
-         <div class="row" id="posts">
+     <div class="row" id="posts">
       <div class="col-md-4">
         <div class="thumbnail">
           <a href="/w3images/lights.jpg">
             <img src="imgs/teste.png" alt="Lights" style="width:100%">           
           </a>      
         </div>
+
+
       </div>
-       -->
 
        
 
+      <div class="col-md-8" id="texts">
          
        <p>Uma explicação sobre o projeto aqui Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in.</p>
 
        <p>Uma explicação sobre o projeto aqui Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in.</p>
 
-       
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <a href="/w3images/lights.jpg">
-                <img src="imgs/teste.png" alt="Lights" style="width:100%">           
-              </a>      
-            </div>
-          </div>
-
-
        <p>Uma explicação sobre o projeto aqui Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in.</p>
 
        <p>Uma explicação sobre o projeto aqui Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in.</p>
 
-       <p>Uma explicação sobre o projeto aqui Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in.</p>
+       <!--<p>Uma explicação sobre o projeto aqui Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in.</p>
 
-       <p>Uma explicação sobre o projeto aqui Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in.</p>
-
-       <p>Uma explicação sobre o projeto aqui Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in.</p>
-
-       <p>Uma explicação sobre o projeto aqui Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in.</p>
-
-       <p>Uma explicação sobre o projeto aqui Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in.</p>
-      
-       
-    
-
-
+       <p>Uma explicação sobre o projeto aqui Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in.</p>-->
+         
+      </div>
       
      
     </div>
