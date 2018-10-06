@@ -16,7 +16,7 @@
 </head>
 <body>
 
-  <div class="container-fluid">
+  <div class="container-fluid">    
       <div class="row" >
       <div class="col-md-6 col-md-offset-3" >
         <div class="panel panel-login" id="caixa">
@@ -34,12 +34,12 @@
           <div class="panel-body">
             <div class="row">
               <div class="col-lg-12">
-                <form id="login-form" action="https://phpoll.com/login/process" method="post" role="form" style="display: block;">
+                <form id="login-form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" role="form" style="display: block;">               
                   <div class="form-group">
-                    <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="nome de usuario" value="">
+                    <input type="email" name="email" id="emailLog" tabindex="1" class="form-control" placeholder="email" value="">
                   </div>
                   <div class="form-group">
-                    <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="senha">
+                    <input type="password" name="password" id="passwordLogin" tabindex="2" class="form-control" placeholder="senha">
                   </div>
                   <div class="form-group text-center">
                     <input type="checkbox" tabindex="3" class="" name="remember" id="remember">
@@ -62,23 +62,25 @@
                     </div>
                   </div>
                 </form>
-                <form id="register-form" action="https://phpoll.com/register/process" method="post" role="form" style="display: none;">
+
+                <!-- Formulário de Cadastro -->
+                <form id="register-form" action="cadastroAdm.php" method="post" name="f1" role="form" style="display: none;">
                   <div class="form-group">
                     <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="nome de usuario" value="">
                   </div>
                   <div class="form-group">
-                    <input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="email" value="">
+                    <input type="email" name="email" id="emailCad" name="email"  tabindex="1" class="form-control" placeholder="email" value="" data-type="email">
                   </div>
                   <div class="form-group">
-                    <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="senha">
+                    <input type="password" name="senha1" id="passwordCad" tabindex="2" class="form-control" placeholder="senha" data-type="password">
                   </div>
                   <div class="form-group">
-                    <input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirmar Senha">
+                    <input type="password" name="senha2" id="confirm-password" tabindex="2" class="form-control" placeholder="confirmar senha" data-type="password">
                   </div>
                   <div class="form-group">
                     <div class="row">
                       <div class="col-sm-6 col-sm-offset-3">
-                        <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Cadastrar">
+                        <input type="submit" name="btCadAdm" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Cadastrar">
                       </div>
                     </div>
                   </div>
@@ -91,16 +93,15 @@
     </div>
   </div>
 
-
-
-
-
      <?php
         require_once 'footer.php';
-     ?>
+     ?>  
 
-  
 
   <script type="text/javascript" src="js/formCadLog.js"></script>
 </body>
 </html>
+
+<!-- https://www.youtube.com/watch?v=-Ntvs91NEJE 
+https://files.000webhost.com/
+-->

@@ -18,7 +18,7 @@
         <li><a href="sobre.php">Sobre</a></li>
         <li><a href="galeria.php">Galeria</a></li>
         <li><a href="voluntarios.php">Voluntários</a></li>
-        <li><a href="Fundadores.php">Fundadores</a></li>
+        <li><a href="fundadores.php">Fundadores</a></li>
         <li><a href="contato.php">Contato</a></li>
       </ul>
       
