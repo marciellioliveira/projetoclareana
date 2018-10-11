@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Projeto Clareana</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- CSS -->  
-  <link rel="stylesheet" type="text/css" href="css/estilo.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
-
-
-  <!-- JS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body>
-
-<div class="container-fluid">
  <nav class="navbar navbar-default"> <!-- Inicio Menu -->
   <div class="container-fluid" id="menu">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -27,13 +9,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php">Projeto Clareana</a>
+      <a class="navbar-brand" href="inicio.php">Projeto Clareana</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav" id="collapse">
-        <li><a href="index.php">Inicio</a></li>
+        <li><a href="inicio.php">Inicio</a></li>
         <li><a href="sobre.php">Sobre</a></li>
         <li><a href="galeria.php">Galeria</a></li>
         <li><a href="voluntarios.php">Voluntários</a></li>

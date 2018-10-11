@@ -1,11 +1,22 @@
- 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Projeto Clareana</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <?php 
-    require_once 'header.php';
-  ?>
+  <!-- CSS -->  
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
 
-  <div class="container-fluid" >   
-    <div class="row" >
+
+  <!-- JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container-fluid">    
+      <div class="row" >
       <div class="col-md-6 col-md-offset-3" >
         <div class="panel panel-login" id="caixa">
           <div class="panel-heading">
@@ -22,9 +33,9 @@
           <div class="panel-body">
             <div class="row">
               <div class="col-lg-12">
-                <form id="login-form" action="login.php" method="post" role="form" style="display: block;">               
+                <form id="login-form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" role="form" style="display: block;">               
                   <div class="form-group">
-                    <input type="email" name="email" id="emailLog" tabindex="1" class="form-control" placeholder="email">
+                    <input type="email" name="email" id="emailLog" tabindex="1" class="form-control" placeholder="email" value="">
                   </div>
                   <div class="form-group">
                     <input type="password" name="password" id="passwordLogin" tabindex="2" class="form-control" placeholder="senha">
@@ -51,50 +62,24 @@
                   </div>
                 </form>
 
-                <script type="text/javascript">
-                  
-                  function validarSenha() {                    
-
-                    var senha1 = document.getElementById("password").value;
-                    var senha2 = document.getElementById("confirm_password").value;
-
-                    //alert("Senha1: "+senha1+"            senha2: "+senha2);
-
-                    if (senha1 == senha2) {
-                      
-                      return true;
-
-                    } else {
-                      
-                      alert("As senhas estão diferentes!")
-                      return false;
-
-                    }
-
-                  }
-
-
-
-                </script>
-                        
                 <!-- Formulário de Cadastro -->
-                <form id="register-form" action="cadastro.php" method="post" name="f1" role="form" style="display: none;" onsubmit="return validarSenha()">
+                <form id="register-form" action="cadastroAdm.php" method="post" name="f1" role="form" style="display: none;">
                   <div class="form-group">
-                    <input required type="text" minlength="4" name="username" id="username" tabindex="1"  class="form-control" placeholder="nome de usuario">
+                    <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="nome de usuario" value="">
                   </div>
                   <div class="form-group">
-                    <input required type="email" name="email" id="emailCad" tabindex="1" class="form-control" placeholder="email@email.com"  data-type="email">
+                    <input type="email" name="email" id="emailCad" name="email"  tabindex="1" class="form-control" placeholder="email" value="" data-type="email">
                   </div>
                   <div class="form-group">
-                    <input required type="password" pattern=".{6,}" title="A senha deve ter no minimo 6 caracteres" name="senha1" tabindex="2" class="form-control" placeholder="senha" data-type="password" id="password">
+                    <input type="password" name="senha1" id="passwordCad" tabindex="2" class="form-control" placeholder="senha" data-type="password">
                   </div>
                   <div class="form-group">
-                    <input required type="password" pattern=".{6,}" title="A senha deve ter no minimo 6 caracteres" name="senha2" tabindex="2" class="form-control" placeholder="confirmar senha" data-type="password" id="confirm_password">
+                    <input type="password" name="senha2" id="confirm-password" tabindex="2" class="form-control" placeholder="confirmar senha" data-type="password">
                   </div>
                   <div class="form-group">
                     <div class="row">
                       <div class="col-sm-6 col-sm-offset-3">
-                        <input type="submit" name="btCadAdm" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Cadastrar" >
+                        <input type="submit" name="btCadAdm" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Cadastrar">
                       </div>
                     </div>
                   </div>
@@ -107,13 +92,9 @@
     </div>
   </div>
 
-
-
-
-
-  <?php
-  require_once 'footer.php';
-  ?>  
+     <?php
+        require_once 'footer.php';
+     ?>  
 
 
 
